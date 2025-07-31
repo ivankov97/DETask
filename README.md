@@ -1,6 +1,6 @@
 # 🛠️ DETask
 
-## 📋 Requirements
+### Requirements
 
 Make sure the following are installed on your system:
 
@@ -12,7 +12,7 @@ Make sure the following are installed on your system:
 
 ---
 
-## 🚀 Running the App
+## Running the App
 
 1. **Download** or clone all project files into a folder (e.g. on your Desktop).
 
@@ -55,7 +55,7 @@ Make sure the following are installed on your system:
 
 ---
 
-## 📄 Notes
+## Notes
 
 - The database runs in Docker; no external PostgreSQL installation is required.
 - You can stop everything using:
