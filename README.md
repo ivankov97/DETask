@@ -1,10 +1,6 @@
 # 🛠️ DETask
 
-This app displays a list of countries and their flags in an interactive dashboard.
-
----
-
-## 🧰 Requirements
+## Requirements
 
 Make sure the following are installed on your system:
 
@@ -16,10 +12,15 @@ Make sure the following are installed on your system:
 
 ---
 
-## 🚀 How to Run the App
+##  Running the app
 
 1. **Download** or clone all project files into a folder (e.g. on your Desktop).
-
+   1a. 
+      Install required Python packages using:
+      
+      ```bash
+      pip install -r requirements.txt
+      
 2. **Run the files in the following order**:
 
    ### 1. Start the PostgreSQL database
