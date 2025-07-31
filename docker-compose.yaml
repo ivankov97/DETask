@@ -1,0 +1,16 @@
+services:
+  db:
+    container_name: countries_postgres
+    image: postgres:14
+    restart: always
+    environment:
+      POSTGRES_USER: clarkkent
+      POSTGRES_PASSWORD: superman
+      POSTGRES_DB: countriesdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
