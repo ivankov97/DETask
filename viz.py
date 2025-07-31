@@ -17,7 +17,8 @@ app.layout = html.Div([
         columns=[{"name": i, "id": i} for i in df.columns if i != 'flag_url'],
         style_table={'height': '400px', 'overflowY': 'scroll'},
         style_cell={'textAlign': 'left'},
-        row_selectable='single'
+        row_selectable='single',
+        sort_action = 'native'
     ),
 
     html.Br(),
