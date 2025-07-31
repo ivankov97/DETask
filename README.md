@@ -50,14 +50,6 @@ Make sure the following are installed on your system:
 
 ---
 
-## ✅ Features
-
-- Scrollable, sortable table of countries
-- Click a country row to display its flag
-- Interactive and lightweight UI
-
----
-
 ## 📄 Notes
 
 - The database runs in Docker; no external PostgreSQL installation is required.
